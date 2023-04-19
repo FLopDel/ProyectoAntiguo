@@ -1,8 +1,11 @@
 <script setup>
 import Header from './components/Header.vue'
-import Home from './components/Home.vue'
 import Footer from './components/Footer.vue'
-import SobreNosotros from './components/SobreNosotros.vue'
+
+import Home from './components/Home.vue'
+import AboutUs from './components/AboutUs.vue'
+import Reservation from './components/Reservation.vue'
+import Location from './components/Location.vue'
 
 
 
@@ -13,13 +16,17 @@ import SobreNosotros from './components/SobreNosotros.vue'
     <div id="principal">
         <main>
             <!-- <Home></Home> -->
-            <SobreNosotros></SobreNosotros>
+            <!-- <AboutUs></AboutUs> -->
+            <Reservation></Reservation>
+            <!-- <Location></Location> -->
         </main>
         <Footer></Footer>
     </div>
 </template>
 
 <style>
-
+    ::-webkit-scrollbar{
+        display: none;
+    }
 
 </style>
